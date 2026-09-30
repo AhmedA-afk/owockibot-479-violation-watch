@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Upstream permit violations near 29.9500, -90.0700</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  html, body { margin: 0; height: 100%; font-family: system-ui, sans-serif; }
+  #map { height: 100%; }
+  .banner {
+    position: absolute; top: 10px; left: 50px; z-index: 1000;
+    background: rgba(255,255,255,.94); padding: 10px 14px; border-radius: 8px;
+    box-shadow: 0 1px 6px rgba(0,0,0,.25); max-width: 430px; font-size: 13px;
+  }
+  .banner h1 { font-size: 15px; margin: 0 0 4px; }
+  .banner p { margin: 2px 0; color: #444; }
+  .legend { line-height: 1.7; }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; margin-right: 6px; }
+  .popup b { font-size: 14px; }
+  .popup table { border-collapse: collapse; margin-top: 6px; font-size: 12px; }
+  .popup td { padding: 2px 6px 2px 0; vertical-align: top; }
+  .popup td:first-child { color: #555; white-space: nowrap; }
+  .anchor { display: none; }
+</style>
+</head>
+<body>
+<div class="anchor" id="LAG490021"></div>
+<div class="anchor" id="LAG030004"></div>
+<div class="anchor" id="LA0056600"></div>
+<div class="anchor" id="LAG533084"></div>
+<div class="anchor" id="LAG480986"></div>
+<div class="anchor" id="LA0108120"></div>
+<div class="anchor" id="LAG030097"></div>
+<div class="anchor" id="LAR05P132"></div>
+<div class="anchor" id="LAG535846"></div>
+<div class="anchor" id="LAU008644"></div>
+<div class="anchor" id="LAG030003"></div>
+<div class="anchor" id="LAG490022"></div>
+<div class="anchor" id="LAG480332"></div>
+<div class="anchor" id="LAG490070"></div>
+<div class="anchor" id="LAG530941"></div>
+<div class="anchor" id="LA0075833"></div>
+<div class="anchor" id="LAG110028"></div>
+<div class="anchor" id="LAG030113"></div>
+<div class="anchor" id="LAG309010"></div>
+<div class="anchor" id="LAR05P895"></div>
+<div id="map"></div>
+<div class="banner">
+  <h1>Upstream permit violations</h1>
+  <p><b>20 facilities</b> with CWA violations within 20 mi of
+     29.9500, -90.0700 &mdash; sorted most-upstream first.</p>
+  <p class="legend"><span class="dot" style="background:#d62728"></span>SNC (significant non-compliance)
+     <span class="dot" style="background:#ff7f0e; margin-left:10px"></span>Violation reported</p>
+  <p>Source: bundled sample (EPA ECHO ICIS-NPDES snapshot, 2026-09-29T20:24:25Z). Upstream order is an elevation proxy
+     (USGS EPQS), not NHDPlus flowline tracing. Markers are numbered by upstream rank;
+     append <code>#NPDES_ID</code> to the URL to open a facility.</p>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+var FACILITIES = [{"npdes_id": "LAG490021", "name": "EASTBANK SANDPIT", "address": "FOOT OF POWERLINE ST", "city": "HARAHAN", "state": "LA", "zip": "70183", "lat": 29.935761, "lon": -90.189797, "dist_mi": 7.24, "elevation_m": 8.1, "upstream_rank": 1, "snc": false, "status": "Violation reported", "summary": "Violation reported in ECHO; ECHO violation flag set; permit status: Expired", "detail_url": "https://echo.epa.gov/detailed-facility-report?fid=110012314637"}, {"npdes_id": "LAG030004", "name": "INTERCOASTAL BARGE CLEANING LLC", "address": "RIVER MILE 105.15 EAST BANK OF MISS. RIVER", "city": "JEFFERSON", "state": "LA", "zip": "70181", "lat": 29.958639, "lon": -90.158683, "dist_mi": 5.34, "elevation_m": 7.9, "upstream_rank": 2, "snc": false, "status": "Violation reported", "summary": "Violation reported in ECHO; ECHO violation flag set; permit status: Effective", "detail_url": "https://echo.epa.gov/detailed-facility-report?fid=110059706180"}, {"npdes_id": "LA0056600", "name": "DELTA TERMINAL SERVICES, LLC - HARVEY TERMINAL", "address": "3540 RIVER ROAD", "city": "HARVEY", "state": "LA", "zip": "70058", "lat": 29.91061, "lon": -90.08527, "dist_mi": 2.87, "elevation_m": 6.1, "upstream_rank": 3, "snc": false, "status": "Violation reported", "summary": "Violation reported in ECHO; ECHO violation flag set; permit status: Effective", "detail_url": "https://echo.epa.gov/detailed-facility-report?fid=110070117180"}, {"npdes_id": "LAG533084", "name": "ENERGY TRANSFER GEISMAR OLEFINS, LLC - CHALMETTE GAS PROCESSING PLANT", "address": "1701 PARIS RD, GATE 50", "city": "CHALMETTE", "state": "LA", "zip": "70044", "lat": 29.930521, "lon": -89.967582, "dist_mi": 6.28, "elevation_m": 5.2, "upstream_rank": 4, "snc": false, "status": "Violation reported", "summary": "Violation reported in ECHO; ECHO violation flag set; permit status: Effective", "detail_url": "https://echo.epa.gov/detailed-facility-report?fid=110017883851"}, {"npdes_id": "LAG480986", "name": "BATTURE PROPCO LLC", "address": "FOOT OF WALNUT ST @ MISSISSIPPI RIVER", "city": "NEW ORLEANS", "state": "LA", "zip": "70178", "lat": 29.928, "lon": -90.134778, "dist_mi": 4.17, "elevation_m": 5.0, "upstream_rank": 5, "snc": false, "status": "Violation reported", "summary": "Violation reported in ECHO; ECHO violation flag set; permit status: Expired", "detail_url": "https://echo.epa.gov/detailed-facility-report?fid=110067185218"}, {"npdes_id": "LA0108120", "name": "CHALMETTE SLIP DOCK #2", "address": "8000 ST. BERNARD HWY", "city": "ARABI", "state": "LA", "zip": "70032", "lat": 29.945759, "lon": -89.997847, "dist_mi": 4.33, "elevation_m": 4.8, "upstream_rank": 6, "snc": false, "status": "Violation reported", "summary": "Violation reported in ECHO; ECHO violation flag set; permit status: Effective", "detail_url": "https://echo.epa.gov/detailed-facility-report?fid=110024430864"}, {"npdes_id": "LAG030097", "name": "COOPER CONSOLIDATED LLC- AZALEA FLEET", "address": "9600 RIVER RD", "city": "WAGGAMAN", "state": "LA", "zip": "70094", "lat": 29.961367, "lon": -90.243123, "dist_mi": 10.39, "elevation_m": 4.0, "upstream_rank": 7, "snc": false, "status": "Violation reported", "summary": "Violation reported in ECHO; ECHO violation flag set; permit status: Effective", "detail_url": "https://echo.epa.gov/detailed-facility-report?fid=110070203144"}, {"npdes_id": "LAR05P132", "name": "NAPOLEON CONTAINER TERMINAL COMPLEX", "address": "50 NAPOLEON AVENUE", "city": "NEW ORLEANS", "state": "LA", "zip": "70115", "lat": 29.915997, "lon": -90.101113, "dist_mi": 3.0, "elevation_m": 3.8, "upstream_rank": 8, "snc": false, "status": "Violation reported", "summary": "Violation reported in ECHO; ECHO violation flag set; permit status: Effective", "detail_url": "https://echo.epa.gov/detailed-facility-report?fid=110039180427"}, {"npdes_id": "LAG535846", "name": "E.N. BISSON & SON, INC. - FLEET", "address": "1 WALNUT ST.", "city": "NEW ORLEANS", "state": "LA", "zip": "70000", "lat": 29.92578, "lon": -90.13363, "dist_mi": 4.16, "elevation_m": 3.6, "upstream_rank": 9, "snc": false, "status": "Violation reported", "summary": "Violation reported in ECHO; ECHO violation flag set; permit status: Effective", "detail_url": "https://echo.epa.gov/detailed-facility-report?fid=110070503250"}, {"npdes_id": "LAU008644", "name": "DIAMOND B CONSTRUCTION COMPANY LLC", "address": "710 RIVER RD", "city": "WESTWEGO", "state": "LA", "zip": "70000", "lat": 29.932008, "lon": -90.145026, "dist_mi": 4.66, "elevation_m": 3.6, "upstream_rank": 10, "snc": false, "status": "Violation reported", "summary": "Violation reported in ECHO; ECHO violation flag set", "detail_url": "https://echo.epa.gov/detailed-facility-report?fid=110058901336"}, {"npdes_id": "LAG030003", "name": "NATIONAL MAINTENANCE & REPAIR OF LOUISIANA INC. - HARAHAN SHIPYARD", "address": "5004 RIVER RD", "city": "HARAHAN", "state": "LA", "zip": "70123", "lat": 29.94784, "lon": -90.17376, "dist_mi": 6.21, "elevation_m": 3.5, "upstream_rank": 11, "snc": false, "status": "Violation reported", "summary": "Violation reported in ECHO; ECHO violation flag set; permit status: Effective", "detail_url": "https://echo.epa.gov/detailed-facility-report?fid=110059706171"}, {"npdes_id": "LAG490022", "name": "BEVERLY INDUSTRIES LLC", "address": "1214 RIVER ROAD", "city": "BRIDGE CITY", "state": "LA", "zip": "70096", "lat": 29.94394, "lon": -90.1452, "dist_mi": 4.52, "elevation_m": 3.4, "upstream_rank": 12, "snc": true, "status": "SNC (significant non-compliance)", "summary": "SNC: Failure to Report DMR - Not Received; since 06/30/2026; 5 quarter(s) in SNC; ECHO violation flag set; permit status: Expired", "detail_url": "https://echo.epa.gov/detailed-facility-report?fid=110020158755"}, {"npdes_id": "LAG480332", "name": "DESTREHAN FACILITY", "address": "12710 RIVER RD", "city": "DESTREHAN", "state": "LA", "zip": "70047", "lat": 29.942149, "lon": -90.356747, "dist_mi": 17.18, "elevation_m": 3.4, "upstream_rank": 13, "snc": false, "status": "Violation reported", "summary": "Violation reported in ECHO; ECHO violation flag set; permit status: Expired", "detail_url": "https://echo.epa.gov/detailed-facility-report?fid=110016682099"}, {"npdes_id": "LAG490070", "name": "BRIDGE CITY SAND PIT", "address": "OFF LA HWY 541 (RIVER RD)", "city": "BRIDGE CITY", "state": "LA", "zip": "70096", "lat": 29.943889, "lon": -90.145556, "dist_mi": 4.54, "elevation_m": 3.4, "upstream_rank": 14, "snc": true, "status": "SNC (significant non-compliance)", "summary": "SNC: Failure to Report DMR - Not Received; since 06/30/2026; 9 quarter(s) in SNC; ECHO violation flag set; permit status: Expired", "detail_url": "https://echo.epa.gov/detailed-facility-report?fid=110031106862"}, {"npdes_id": "LAG530941", "name": "AIRPORT MOTEL PARTNERS LLC DBA RAMADA LULING", "address": "13889 RIVER ROAD", "city": "LULING", "state": "LA", "zip": "70070", "lat": 29.94029, "lon": -90.3819, "dist_mi": 18.69, "elevation_m": 2.8, "upstream_rank": 15, "snc": false, "status": "Violation reported", "summary": "Violation reported in ECHO; ECHO violation flag set; permit status: Effective", "detail_url": "https://echo.epa.gov/detailed-facility-report?fid=110011176994"}, {"npdes_id": "LA0075833", "name": "IMTT -  ST.ROSE", "address": "11842 RIVER ROAD", "city": "SAINT ROSE", "state": "LA", "zip": "70087", "lat": 29.942846, "lon": -90.331241, "dist_mi": 15.65, "elevation_m": 2.7, "upstream_rank": 16, "snc": false, "status": "Violation reported", "summary": "Violation reported in ECHO; ECHO violation flag set; permit status: Effective", "detail_url": "https://echo.epa.gov/detailed-facility-report?fid=110071071590"}, {"npdes_id": "LAG110028", "name": "CARLO DITTA INC - TCHOUPITOULAS STREET PLANT", "address": "1585 TCHOUPITOULAS ST", "city": "NEW ORLEANS", "state": "LA", "zip": "70190", "lat": 29.931185, "lon": -90.066084, "dist_mi": 1.32, "elevation_m": 2.6, "upstream_rank": 17, "snc": false, "status": "Violation reported", "summary": "Violation reported in ECHO; ECHO violation flag set; permit status: Effective", "detail_url": "https://echo.epa.gov/detailed-facility-report?fid=110011186885"}, {"npdes_id": "LAG030113", "name": "ADM GRAIN RIVER SYSTEM, INC. - GEMINI FACILITY", "address": "MISSISSIPPI RIVER MILES 110 & 155", "city": "JEFFERSON", "state": "LA", "zip": "70000", "lat": 29.9607534, "lon": -90.1558571, "dist_mi": 5.19, "elevation_m": 2.6, "upstream_rank": 18, "snc": false, "status": "Violation reported", "summary": "Violation reported in ECHO; ECHO violation flag set; permit status: Effective", "detail_url": "https://echo.epa.gov/detailed-facility-report?fid=110070562163"}, {"npdes_id": "LAG309010", "name": "LAMAR CONTRACTORS INC", "address": "481 SUGARLAND PKWY", "city": "LULING", "state": "LA", "zip": "70070", "lat": 29.938798, "lon": -90.378425, "dist_mi": 18.48, "elevation_m": 2.5, "upstream_rank": 19, "snc": true, "status": "SNC (significant non-compliance)", "summary": "SNC: Failure to Report DMR - Not Received; since 06/30/2026; 1 quarter(s) in SNC; ECHO violation flag set; permit status: Expired", "detail_url": "https://echo.epa.gov/detailed-facility-report?fid=110009013281"}, {"npdes_id": "LAR05P895", "name": "CCI BRAITHWAITE STORAGE LLC", "address": "3607 ENGLISH TURN RD", "city": "BRAITHWAITE", "state": "LA", "zip": "70000", "lat": 29.862595, "lon": -89.971049, "dist_mi": 8.46, "elevation_m": 2.5, "upstream_rank": 20, "snc": true, "status": "SNC (significant non-compliance)", "summary": "SNC: Failure to Report DMR - Not Received; since 06/30/2026; 12 quarter(s) in SNC; ECHO violation flag set; permit status: Effective", "detail_url": "https://echo.epa.gov/detailed-facility-report?fid=110069417321"}];
+var map = L.map('map').setView([29.95, -90.07], 11);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+// query point
+L.circleMarker([29.95, -90.07], {radius: 8, color: '#1f77b4', fillColor: '#1f77b4', fillOpacity: 0.9})
+  .addTo(map).bindPopup('<b>Query point</b><br>29.9500, -90.0700');
+var markersById = {};
+var bounds = [[29.95, -90.07]];
+FACILITIES.forEach(function (f) {
+  var color = f.snc ? '#d62728' : '#ff7f0e';
+  var num = f.upstream_rank ? String(f.upstream_rank) : '?';
+  var icon = L.divIcon({
+    className: 'rank-marker',
+    html: '<div style="background:' + color + ';color:#fff;border-radius:50%;'
+        + 'width:24px;height:24px;line-height:24px;text-align:center;'
+        + 'font-size:11px;font-weight:bold;border:2px solid #fff;'
+        + 'box-shadow:0 1px 4px rgba(0,0,0,.4)">' + num + '</div>',
+    iconSize: [24, 24], iconAnchor: [12, 12]
+  });
+  var rows = [
+    ['Permit (NPDES)', f.npdes_id || 'unknown'],
+    ['Status', f.status],
+    ['Distance', (f.dist_mi == null ? 'unknown' : f.dist_mi + ' mi')],
+    ['Upstream rank', f.upstream_rank == null ? 'n/a' : '#' + f.upstream_rank + ' of ' + FACILITIES.length],
+    ['Elevation', f.elevation_m == null ? 'unavailable' : f.elevation_m + ' m'],
+    ['Address', [f.address, f.city, f.state, f.zip].filter(Boolean).join(', ') || 'n/a'],
+  ];
+  var htmlRows = rows.map(function (r) {
+    return '<tr><td>' + r[0] + '</td><td><b>' + r[1] + '</b></td></tr>';
+  }).join('');
+  var detail = f.detail_url ? '<br><a href="' + f.detail_url + '" target="_blank" rel="noopener">EPA detailed facility report</a>' : '';
+  var popup = '<div class="popup"><b>' + f.name + '</b><table>' + htmlRows + '</table>'
+    + '<div style="margin-top:6px;font-size:12px;color:#333">' + f.summary + '</div>' + detail + '</div>';
+  var m = L.marker([f.lat, f.lon], {icon: icon}).addTo(map).bindPopup(popup);
+  if (f.npdes_id) markersById[f.npdes_id] = m;
+  bounds.push([f.lat, f.lon]);
+});
+map.fitBounds(bounds, {padding: [40, 40]});
+// deep-link: #NPDES_ID opens that facility's popup
+(function () {
+  var id = decodeURIComponent((location.hash || '').slice(1));
+  if (id && markersById[id]) {
+    var m = markersById[id];
+    map.setView(m.getLatLng(), 13);
+    m.openPopup();
+  }
+})();
+</script>
+</body>
+</html>

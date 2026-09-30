@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:georss="http://www.georss.org/georss" xmlns="http://www.w3.org/2005/Atom"><title>Upstream permit violations near 29.9500, -90.0700 (20 mi radius)</title><id>tag:owockibot-violation-watch,2026-09-29:upstream/29.9500/-90.0700</id><updated>2026-09-29T21:06:51Z</updated><link rel="alternate" href="map.html" /><author><name>Violation Watch (owockibot #479)</name></author><subtitle>Clean Water Act facilities with permit violations upstream of 29.9500, -90.0700. Source: bundled sample (EPA ECHO ICIS-NPDES snapshot, 2026-09-29T20:24:25Z). Upstream order is an elevation proxy (USGS EPQS), not NHDPlus flowline tracing.</subtitle><entry><title>[#1 upstream] EASTBANK SANDPIT (LAG490021)</title><id>tag:owockibot-violation-watch,2026-09-29:facility/LAG490021</id><updated>2026-09-29T21:06:51Z</updated><link rel="alternate" href="https://echo.epa.gov/detailed-facility-report?fid=110012314637" /><summary>Facility: EASTBANK SANDPIT
+NPDES permit: LAG490021
+Status: Violation reported
+Location: FOOT OF POWERLINE ST, HARAHAN, LA 70183
+Distance from query point: 7.24 mi
+Elevation: 8.1 m (USGS EPQS)
+Violation summary: Violation reported in ECHO; ECHO violation flag set; permit status: Expired</summary><georss:point>29.935761 -90.189797</georss:point></entry><entry><title>[#2 upstream] INTERCOASTAL BARGE CLEANING LLC (LAG030004)</title><id>tag:owockibot-violation-watch,2026-09-29:facility/LAG030004</id><updated>2026-09-29T21:06:51Z</updated><link rel="alternate" href="https://echo.epa.gov/detailed-facility-report?fid=110059706180" /><summary>Facility: INTERCOASTAL BARGE CLEANING LLC
+NPDES permit: LAG030004
+Status: Violation reported
+Location: RIVER MILE 105.15 EAST BANK OF MISS. RIVER, JEFFERSON, LA 70181
+Distance from query point: 5.34 mi
+Elevation: 7.9 m (USGS EPQS)
+Violation summary: Violation reported in ECHO; ECHO violation flag set; permit status: Effective</summary><georss:point>29.958639 -90.158683</georss:point></entry><entry><title>[#3 upstream] DELTA TERMINAL SERVICES, LLC - HARVEY TERMINAL (LA0056600)</title><id>tag:owockibot-violation-watch,2026-09-29:facility/LA0056600</id><updated>2026-09-29T21:06:51Z</updated><link rel="alternate" href="https://echo.epa.gov/detailed-facility-report?fid=110070117180" /><summary>Facility: DELTA TERMINAL SERVICES, LLC - HARVEY TERMINAL
+NPDES permit: LA0056600
+Status: Violation reported
+Location: 3540 RIVER ROAD, HARVEY, LA 70058
+Distance from query point: 2.87 mi
+Elevation: 6.1 m (USGS EPQS)
+Violation summary: Violation reported in ECHO; ECHO violation flag set; permit status: Effective</summary><georss:point>29.91061 -90.08527</georss:point></entry><entry><title>[#4 upstream] ENERGY TRANSFER GEISMAR OLEFINS, LLC - CHALMETTE GAS PROCESSING PLANT (LAG533084)</title><id>tag:owockibot-violation-watch,2026-09-29:facility/LAG533084</id><updated>2026-09-29T21:06:51Z</updated><link rel="alternate" href="https://echo.epa.gov/detailed-facility-report?fid=110017883851" /><summary>Facility: ENERGY TRANSFER GEISMAR OLEFINS, LLC - CHALMETTE GAS PROCESSING PLANT
+NPDES permit: LAG533084
+Status: Violation reported
+Location: 1701 PARIS RD, GATE 50, CHALMETTE, LA 70044
+Distance from query point: 6.28 mi
+Elevation: 5.2 m (USGS EPQS)
+Violation summary: Violation reported in ECHO; ECHO violation flag set; permit status: Effective</summary><georss:point>29.930521 -89.967582</georss:point></entry><entry><title>[#5 upstream] BATTURE PROPCO LLC (LAG480986)</title><id>tag:owockibot-violation-watch,2026-09-29:facility/LAG480986</id><updated>2026-09-29T21:06:51Z</updated><link rel="alternate" href="https://echo.epa.gov/detailed-facility-report?fid=110067185218" /><summary>Facility: BATTURE PROPCO LLC
+NPDES permit: LAG480986
+Status: Violation reported
+Location: FOOT OF WALNUT ST @ MISSISSIPPI RIVER, NEW ORLEANS, LA 70178
+Distance from query point: 4.17 mi
+Elevation: 5.0 m (USGS EPQS)
+Violation summary: Violation reported in ECHO; ECHO violation flag set; permit status: Expired</summary><georss:point>29.928 -90.134778</georss:point></entry><entry><title>[#6 upstream] CHALMETTE SLIP DOCK #2 (LA0108120)</title><id>tag:owockibot-violation-watch,2026-09-29:facility/LA0108120</id><updated>2026-09-29T21:06:51Z</updated><link rel="alternate" href="https://echo.epa.gov/detailed-facility-report?fid=110024430864" /><summary>Facility: CHALMETTE SLIP DOCK #2
+NPDES permit: LA0108120
+Status: Violation reported
+Location: 8000 ST. BERNARD HWY, ARABI, LA 70032
+Distance from query point: 4.33 mi
+Elevation: 4.8 m (USGS EPQS)
+Violation summary: Violation reported in ECHO; ECHO violation flag set; permit status: Effective</summary><georss:point>29.945759 -89.997847</georss:point></entry><entry><title>[#7 upstream] COOPER CONSOLIDATED LLC- AZALEA FLEET (LAG030097)</title><id>tag:owockibot-violation-watch,2026-09-29:facility/LAG030097</id><updated>2026-09-29T21:06:51Z</updated><link rel="alternate" href="https://echo.epa.gov/detailed-facility-report?fid=110070203144" /><summary>Facility: COOPER CONSOLIDATED LLC- AZALEA FLEET
+NPDES permit: LAG030097
+Status: Violation reported
+Location: 9600 RIVER RD, WAGGAMAN, LA 70094
+Distance from query point: 10.39 mi
+Elevation: 4.0 m (USGS EPQS)
+Violation summary: Violation reported in ECHO; ECHO violation flag set; permit status: Effective</summary><georss:point>29.961367 -90.243123</georss:point></entry><entry><title>[#8 upstream] NAPOLEON CONTAINER TERMINAL COMPLEX (LAR05P132)</title><id>tag:owockibot-violation-watch,2026-09-29:facility/LAR05P132</id><updated>2026-09-29T21:06:51Z</updated><link rel="alternate" href="https://echo.epa.gov/detailed-facility-report?fid=110039180427" /><summary>Facility: NAPOLEON CONTAINER TERMINAL COMPLEX
+NPDES permit: LAR05P132
+Status: Violation reported
+Location: 50 NAPOLEON AVENUE, NEW ORLEANS, LA 70115
+Distance from query point: 3.0 mi
+Elevation: 3.8 m (USGS EPQS)
+Violation summary: Violation reported in ECHO; ECHO violation flag set; permit status: Effective</summary><georss:point>29.915997 -90.101113</georss:point></entry><entry><title>[#9 upstream] E.N. BISSON &amp; SON, INC. - FLEET (LAG535846)</title><id>tag:owockibot-violation-watch,2026-09-29:facility/LAG535846</id><updated>2026-09-29T21:06:51Z</updated><link rel="alternate" href="https://echo.epa.gov/detailed-facility-report?fid=110070503250" /><summary>Facility: E.N. BISSON &amp; SON, INC. - FLEET
+NPDES permit: LAG535846
+Status: Violation reported
+Location: 1 WALNUT ST., NEW ORLEANS, LA 70000
+Distance from query point: 4.16 mi
+Elevation: 3.6 m (USGS EPQS)
+Violation summary: Violation reported in ECHO; ECHO violation flag set; permit status: Effective</summary><georss:point>29.92578 -90.13363</georss:point></entry><entry><title>[#10 upstream] DIAMOND B CONSTRUCTION COMPANY LLC (LAU008644)</title><id>tag:owockibot-violation-watch,2026-09-29:facility/LAU008644</id><updated>2026-09-29T21:06:51Z</updated><link rel="alternate" href="https://echo.epa.gov/detailed-facility-report?fid=110058901336" /><summary>Facility: DIAMOND B CONSTRUCTION COMPANY LLC
+NPDES permit: LAU008644
+Status: Violation reported
+Location: 710 RIVER RD, WESTWEGO, LA 70000
+Distance from query point: 4.66 mi
+Elevation: 3.6 m (USGS EPQS)
+Violation summary: Violation reported in ECHO; ECHO violation flag set</summary><georss:point>29.932008 -90.145026</georss:point></entry><entry><title>[#11 upstream] NATIONAL MAINTENANCE &amp; REPAIR OF LOUISIANA INC. - HARAHAN SHIPYARD (LAG030003)</title><id>tag:owockibot-violation-watch,2026-09-29:facility/LAG030003</id><updated>2026-09-29T21:06:51Z</updated><link rel="alternate" href="https://echo.epa.gov/detailed-facility-report?fid=110059706171" /><summary>Facility: NATIONAL MAINTENANCE &amp; REPAIR OF LOUISIANA INC. - HARAHAN SHIPYARD
+NPDES permit: LAG030003
+Status: Violation reported
+Location: 5004 RIVER RD, HARAHAN, LA 70123
+Distance from query point: 6.21 mi
+Elevation: 3.5 m (USGS EPQS)
+Violation summary: Violation reported in ECHO; ECHO violation flag set; permit status: Effective</summary><georss:point>29.94784 -90.17376</georss:point></entry><entry><title>[#12 upstream] BEVERLY INDUSTRIES LLC (LAG490022)</title><id>tag:owockibot-violation-watch,2026-09-29:facility/LAG490022</id><updated>2026-09-29T21:06:51Z</updated><link rel="alternate" href="https://echo.epa.gov/detailed-facility-report?fid=110020158755" /><summary>Facility: BEVERLY INDUSTRIES LLC
+NPDES permit: LAG490022
+Status: SNC (significant non-compliance)
+Location: 1214 RIVER ROAD, BRIDGE CITY, LA 70096
+Distance from query point: 4.52 mi
+Elevation: 3.4 m (USGS EPQS)
+Violation summary: SNC: Failure to Report DMR - Not Received; since 06/30/2026; 5 quarter(s) in SNC; ECHO violation flag set; permit status: Expired</summary><georss:point>29.94394 -90.1452</georss:point></entry><entry><title>[#13 upstream] DESTREHAN FACILITY (LAG480332)</title><id>tag:owockibot-violation-watch,2026-09-29:facility/LAG480332</id><updated>2026-09-29T21:06:51Z</updated><link rel="alternate" href="https://echo.epa.gov/detailed-facility-report?fid=110016682099" /><summary>Facility: DESTREHAN FACILITY
+NPDES permit: LAG480332
+Status: Violation reported
+Location: 12710 RIVER RD, DESTREHAN, LA 70047
+Distance from query point: 17.18 mi
+Elevation: 3.4 m (USGS EPQS)
+Violation summary: Violation reported in ECHO; ECHO violation flag set; permit status: Expired</summary><georss:point>29.942149 -90.356747</georss:point></entry><entry><title>[#14 upstream] BRIDGE CITY SAND PIT (LAG490070)</title><id>tag:owockibot-violation-watch,2026-09-29:facility/LAG490070</id><updated>2026-09-29T21:06:51Z</updated><link rel="alternate" href="https://echo.epa.gov/detailed-facility-report?fid=110031106862" /><summary>Facility: BRIDGE CITY SAND PIT
+NPDES permit: LAG490070
+Status: SNC (significant non-compliance)
+Location: OFF LA HWY 541 (RIVER RD), BRIDGE CITY, LA 70096
+Distance from query point: 4.54 mi
+Elevation: 3.4 m (USGS EPQS)
+Violation summary: SNC: Failure to Report DMR - Not Received; since 06/30/2026; 9 quarter(s) in SNC; ECHO violation flag set; permit status: Expired</summary><georss:point>29.943889 -90.145556</georss:point></entry><entry><title>[#15 upstream] AIRPORT MOTEL PARTNERS LLC DBA RAMADA LULING (LAG530941)</title><id>tag:owockibot-violation-watch,2026-09-29:facility/LAG530941</id><updated>2026-09-29T21:06:51Z</updated><link rel="alternate" href="https://echo.epa.gov/detailed-facility-report?fid=110011176994" /><summary>Facility: AIRPORT MOTEL PARTNERS LLC DBA RAMADA LULING
+NPDES permit: LAG530941
+Status: Violation reported
+Location: 13889 RIVER ROAD, LULING, LA 70070
+Distance from query point: 18.69 mi
+Elevation: 2.8 m (USGS EPQS)
+Violation summary: Violation reported in ECHO; ECHO violation flag set; permit status: Effective</summary><georss:point>29.94029 -90.3819</georss:point></entry><entry><title>[#16 upstream] IMTT -  ST.ROSE (LA0075833)</title><id>tag:owockibot-violation-watch,2026-09-29:facility/LA0075833</id><updated>2026-09-29T21:06:51Z</updated><link rel="alternate" href="https://echo.epa.gov/detailed-facility-report?fid=110071071590" /><summary>Facility: IMTT -  ST.ROSE
+NPDES permit: LA0075833
+Status: Violation reported
+Location: 11842 RIVER ROAD, SAINT ROSE, LA 70087
+Distance from query point: 15.65 mi
+Elevation: 2.7 m (USGS EPQS)
+Violation summary: Violation reported in ECHO; ECHO violation flag set; permit status: Effective</summary><georss:point>29.942846 -90.331241</georss:point></entry><entry><title>[#17 upstream] CARLO DITTA INC - TCHOUPITOULAS STREET PLANT (LAG110028)</title><id>tag:owockibot-violation-watch,2026-09-29:facility/LAG110028</id><updated>2026-09-29T21:06:51Z</updated><link rel="alternate" href="https://echo.epa.gov/detailed-facility-report?fid=110011186885" /><summary>Facility: CARLO DITTA INC - TCHOUPITOULAS STREET PLANT
+NPDES permit: LAG110028
+Status: Violation reported
+Location: 1585 TCHOUPITOULAS ST, NEW ORLEANS, LA 70190
+Distance from query point: 1.32 mi
+Elevation: 2.6 m (USGS EPQS)
+Violation summary: Violation reported in ECHO; ECHO violation flag set; permit status: Effective</summary><georss:point>29.931185 -90.066084</georss:point></entry><entry><title>[#18 upstream] ADM GRAIN RIVER SYSTEM, INC. - GEMINI FACILITY (LAG030113)</title><id>tag:owockibot-violation-watch,2026-09-29:facility/LAG030113</id><updated>2026-09-29T21:06:51Z</updated><link rel="alternate" href="https://echo.epa.gov/detailed-facility-report?fid=110070562163" /><summary>Facility: ADM GRAIN RIVER SYSTEM, INC. - GEMINI FACILITY
+NPDES permit: LAG030113
+Status: Violation reported
+Location: MISSISSIPPI RIVER MILES 110 &amp; 155, JEFFERSON, LA 70000
+Distance from query point: 5.19 mi
+Elevation: 2.6 m (USGS EPQS)
+Violation summary: Violation reported in ECHO; ECHO violation flag set; permit status: Effective</summary><georss:point>29.9607534 -90.1558571</georss:point></entry><entry><title>[#19 upstream] LAMAR CONTRACTORS INC (LAG309010)</title><id>tag:owockibot-violation-watch,2026-09-29:facility/LAG309010</id><updated>2026-09-29T21:06:51Z</updated><link rel="alternate" href="https://echo.epa.gov/detailed-facility-report?fid=110009013281" /><summary>Facility: LAMAR CONTRACTORS INC
+NPDES permit: LAG309010
+Status: SNC (significant non-compliance)
+Location: 481 SUGARLAND PKWY, LULING, LA 70070
+Distance from query point: 18.48 mi
+Elevation: 2.5 m (USGS EPQS)
+Violation summary: SNC: Failure to Report DMR - Not Received; since 06/30/2026; 1 quarter(s) in SNC; ECHO violation flag set; permit status: Expired</summary><georss:point>29.938798 -90.378425</georss:point></entry><entry><title>[#20 upstream] CCI BRAITHWAITE STORAGE LLC (LAR05P895)</title><id>tag:owockibot-violation-watch,2026-09-29:facility/LAR05P895</id><updated>2026-09-29T21:06:51Z</updated><link rel="alternate" href="https://echo.epa.gov/detailed-facility-report?fid=110069417321" /><summary>Facility: CCI BRAITHWAITE STORAGE LLC
+NPDES permit: LAR05P895
+Status: SNC (significant non-compliance)
+Location: 3607 ENGLISH TURN RD, BRAITHWAITE, LA 70000
+Distance from query point: 8.46 mi
+Elevation: 2.5 m (USGS EPQS)
+Violation summary: SNC: Failure to Report DMR - Not Received; since 06/30/2026; 12 quarter(s) in SNC; ECHO violation flag set; permit status: Effective</summary><georss:point>29.862595 -89.971049</georss:point></entry></feed>
